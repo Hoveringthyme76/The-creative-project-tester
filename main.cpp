@@ -72,14 +72,15 @@ int main()
           default:
                cout << "You came up with " << ideasGenerated << " unique ideas.\nGood job!";
      }
-    
+
+     this_thread::sleep_for(6s);
      return 0;
 }
 
 void introduction()
 {
      cout << "Welcome to the creative project tester!\n" << "Please put in any ideas you have down below, then once you are done, press enter while not inputing anything!\n";
-     this_thread::sleep_for(5s);
+     this_thread::sleep_for(3s);
      cout << "Remember, you are allowed to submit 100 ideas in total:\n";
 }
 
